@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap");
+
+* {
+  font-family: "Cairo", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header {
+  background-color: rgb(27, 55, 73);
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+.navigation {
+  color: #ffffff;  
+  font-size: 1.1em; 
+  font-weight: 500;
+  padding-left: 30px;
+}
+.cards {
+  width: 100%;
+  min-height: 100vh;
+  display: flex; 
+  align-items: center;   
+  background: url(images/01-empire-diamonds-towers.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  color: rgb(27, 55, 73);
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #ffffff;
+  width: 25em;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 25px;
+  transition: 0.7s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.img {
+  /* color: #ffffff; */
+  font-size: 1em;
+  text-align: center;
+}
+.info {
+  text-align: center;
+}
+.info h3 {
+  color: rgb(27, 55, 73);
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+/* body {
+  min-height: 100vh;
+  min-height: 100svh;
+  background: rgb(7, 7, 7);
+  font-family: "Cairo", sans-serif;
+  position: relative;
+  overflow-x: hidden;
+}
+
+img {
+  border-radius: 50%;
+  width: clamp(100px, 40vw, 120px);
+  height: clamp(100px, 40vw, 120px);
+  object-fit: cover;
+  object-position: top;
+}
+
+.circle-top {
+  width: clamp(25rem, 30vw, 31.25rem);
+  position: absolute;
+  top: 3em;
+  left: -8em;
+  height: clamp(25rem, 30vw, 31.25rem);
+  background: hsla(211, 100%, 28%, 1);
+
+  background: radial-gradient(circle, #00458f8f 0%, #00458e00 60%, #ffffff00 100%);
+
+  background: -moz-radial-gradient(circle, #00458f8f 0%, #00458e00 60%, #ffffff00 100%);
+
+  background: -webkit-radial-radial-gradient(circle, #00458f8f 0%, #00458e00 60%, #ffffff00 100%);
+
+  border-radius: 50%;
+}
+.circle-bottom {
+  width: clamp(25rem, 30vw, 31.25rem);
+  position: absolute;
+  bottom: -5em;
+  right: -8em;
+  height: clamp(25rem, 30vw, 31.25rem);
+  background: hsla(211, 100%, 28%, 1);
+
+  background: radial-gradient(circle, #00458f8f 0%, #00458e00 65%, #ffffff00 100%);
+
+  background: -moz-radial-gradient(circle, #00458f8f 0%, #00458e00 65%, #ffffff00 100%);
+
+  background: -webkit-radial-radial-gradient(circle, #00458f8f 0%, #00458e00 65%, #ffffff00 100%);
+
+  border-radius: 50%;
+}
+
+header {
+  background: linear-gradient(to top, #1f2c3a 0%, #2f3c4742 100%),
+    url("https://static.srpcdigital.com/styles/1037xauto/public/2015/03/08/01-empire-diamonds-towers.jpg")
+      no-repeat 50% 50% / cover;
+  width: 100%;
+  min-height: 40em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+
+  .header-content {
+    width: min(37.5em, 90%);
+    margin-top: 5em;
+    position: relative;
+    z-index: 10;
+
+    span {
+      display: inline-block;
+      text-transform: uppercase;
+      letter-spacing: 0.063rem;
+      font-size: clamp(0.8rem, 0.7625rem + 0.1875vw, 0.95rem);
+    }
+
+    h1 {
+      font-size: clamp(1.5rem, 1.375rem + 0.625vw, 2rem);
+      font-weight: 700;
+    }
+  }
+} */
