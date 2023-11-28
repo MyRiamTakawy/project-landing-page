@@ -23,16 +23,6 @@ header {
   font-weight: 500;
   padding-left: 30px;
 }
-.cards {
-  width: 100%;
-  min-height: 100vh;
-  display: flex; 
-  align-items: center;   
-  background: url(images/01-empire-diamonds-towers.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
 .title {
   display: flex;
   justify-content: center;
@@ -40,6 +30,16 @@ header {
   font-size: 2.2em;
   font-weight: 800;
   margin-bottom: 30px;
+}
+.cards {
+  width: 100%;
+  min-height: 100vh;
+  display: flex; 
+  align-items: center;   
+  background: url(images/R.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 .content {
   display: flex;
@@ -51,10 +51,15 @@ header {
   background-color: #ffffff;
   width: 25em;
   box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
-  border-radius: 10px;
+  border-radius: 25px 25px 0 25px;
   padding: 10px;
   margin: 25px;
   transition: 0.7s ease;
+  img{
+    width: clamp(380px, 40vw, 150px);
+    height: clamp(200px, 40vw, 200px);
+    position: relative;
+  }
 }
 .card:hover {
   transform: scale(1.1);
@@ -64,15 +69,41 @@ header {
   font-size: 1em;
   text-align: center;
 }
-.info {
+.name {
+  text-decoration: none;
+  text-align: center; 
+  color: rgb(27, 55, 73);
+  font-size: 1.2em;
+  font-weight: 700;
+  /* margin: 10px; */
+}
+.description {
+  font-size: 17px;
+  color: rgb(27, 55, 73);
   text-align: center;
 }
-.info h3 {
+.Button {
+  border: none;
+  font-size: 16px;
+  color: floralwhite;
+  padding: 5px 10px;
+  background-color: rgb(27, 55, 73);
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+ .card-link {
+  text-align: center;
+}
+/* .card-link {
   color: rgb(27, 55, 73);
   font-size: 1.2em;
   font-weight: 700;
   margin: 10px;
-}
+} */ 
+
+
 /* body {
   min-height: 100vh;
   min-height: 100svh;
