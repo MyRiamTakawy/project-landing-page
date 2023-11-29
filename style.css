@@ -77,6 +77,8 @@ section {
     width: clamp(380px, 40vw, 150px);
     height: clamp(200px, 40vw, 200px);
     position: relative;
+    border-radius: 25px 25px 0 25px;
+
   }
 }
 .card:hover {
