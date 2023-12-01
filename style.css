@@ -67,7 +67,7 @@ section {
 }
 .card {
   background-color: #ffffff;
-  width: 25em;
+  width: 30%;
   box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
   border-radius: 25px 25px 0 25px;
   padding: 10px ;
