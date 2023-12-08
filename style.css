@@ -8,39 +8,37 @@
   scroll-behavior: smooth;
 }
 body {
-  background: linear-gradient(to top, #1f2c3a 0%, #2f3c4742 100%),
-   url(images/R.jpg) no-repeat;
+  background: linear-gradient(to top, #1f2c3a 0%, #2f3c4742 100%), url(images/R.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  
 }
 header {
   background-color: rgb(27, 55, 73);
   width: 100%;
-  position: relative; 
+  position: relative;
   z-index: 999;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 200px;
 }
- .logo img{
+.logo img {
   height: 90px;
-} 
+}
 section {
-  padding: 110px ;
-} 
-.navigation h2{
-  color: #ffffff;  
-  font-size: 1.4em; 
+  padding: 110px;
+}
+.navigation h2 {
+  color: #ffffff;
+  font-size: 1.4em;
   font-weight: 800;
   padding-left: 30px;
   text-align: right;
 }
 .navigation {
-  color: #ffffff;  
-  font-size: 1.1em; 
+  color: #ffffff;
+  font-size: 1.1em;
   font-weight: 500;
   padding-left: 30px;
   text-align: right;
@@ -51,13 +49,13 @@ section {
   color: rgb(255, 255, 255);
   font-size: 2.2em;
   font-weight: 800;
-  margin-bottom: 0px; 
+  margin-bottom: 0px;
   margin-top: 50px;
 }
 .cards {
   width: 100%;
   /* min-height: 100vh; */
-  display: flex; 
+  display: flex;
   align-items: center;
 }
 .content {
@@ -71,17 +69,16 @@ section {
   width: 30%;
   box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
   border-radius: 25px 25px 0 25px;
-  padding: 10px ;
+  padding: 10px;
   margin: 18px;
   transition: 0.7s ease;
 }
-  img{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    border-radius: 20px 20px 0 25px;
-
-  }
+img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 20px 20px 0 25px;
+}
 .card:hover {
   transform: scale(1.1);
 }
@@ -91,7 +88,7 @@ section {
 }
 .name {
   text-decoration: none;
-  text-align: center; 
+  text-align: center;
   color: rgb(27, 55, 73);
   font-size: 1.2em;
   font-weight: 700;
@@ -113,7 +110,7 @@ section {
   cursor: pointer;
   transition: all 0.3s ease;
 }
- .card-link {
+.card-link {
   text-align: center;
 }
 .footer {
@@ -129,8 +126,8 @@ section {
   font-size: 14px;
 }
 .single-footer h4 {
-text-transform: capitalize;
-font-size: 15px;
+  text-transform: capitalize;
+  font-size: 15px;
 }
 .footer-social a {
   color: #ffffff;
@@ -143,21 +140,21 @@ font-size: 15px;
 .footer-social {
   margin-top: 20px;
 }
-.single-footer ul{
+.single-footer ul {
   list-style: none;
 }
-.single-footer ul li{
+.single-footer ul li {
   margin-bottom: 10px;
   position: relative;
   padding-left: 20px;
 }
-.single-footer ul li a{
+.single-footer ul li a {
   color: #ffffff;
   text-transform: capitalize;
   text-decoration: none;
 }
-.single-footer ul li a i{
-position: absolute;
+.single-footer ul li a i {
+  position: absolute;
   left: 0;
   top: 5px;
 }
